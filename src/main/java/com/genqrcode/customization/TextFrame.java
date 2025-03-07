@@ -18,7 +18,7 @@ public enum TextFrame {
 
     private final int id;
     private String text;
-    private Color color;
+    private Color frameColor;
 
     /**
      * Constructs a {@code TextFrame} with the specified id.
@@ -46,8 +46,8 @@ public enum TextFrame {
      * @param color the color to be applied to the frame.
      * @return the current {@code TextFrame} instance with the specified color.
      */
-    public TextFrame withColor(final Color color) {
-        this.color = color;
+    public TextFrame withFrameColor(final Color color) {
+        this.frameColor = color;
         return this;
     }
 
@@ -75,6 +75,6 @@ public enum TextFrame {
      * @return the frame color, or {@code null} if no color has been set.
      */
     public Color getFrameColor() {
-        return color;
+        return frameColor;
     }
 }

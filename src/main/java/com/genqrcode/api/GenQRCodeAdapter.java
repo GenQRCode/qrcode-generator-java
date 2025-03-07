@@ -18,10 +18,10 @@ import java.util.zip.ZipInputStream;
 
 class GenQRCodeAdapter {
     private static final String API_KEY_HEADER = "GenQRCode-apikey";
-    private static final String GENERATE_ENDPOINT = "http://localhost:8888/api/public/generate";
-    private static final String FAST_ENDPOINT = "http://localhost:8888/api/public/fastgenerate";
-    private static final String FAST_BATCH_ENDPOINT = "http://localhost:8888/api/public/fastbatch";
-    private static final String LOGO_UPLOAD_ENDPOINT = "http://localhost:8888/api/public/upload/logo";
+    private static final String GENERATE_ENDPOINT = "https://api.genqrcode.com/public/generate";
+    private static final String FAST_ENDPOINT = "https://api.genqrcode.com/public/fastgenerate";
+    private static final String FAST_BATCH_ENDPOINT = "https://api.genqrcode.com/public/fastbatch";
+    private static final String LOGO_UPLOAD_ENDPOINT = "https://api.genqrcode.com/public/upload/logo";
 
     private static final String LINE_FEED = "\r\n";
 
